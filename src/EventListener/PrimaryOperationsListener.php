@@ -1,5 +1,5 @@
 <?php
-namespace Lukasbableck\ContaoContextMenuBundle\EventListener\DataContainer;
+namespace Lukasbableck\ContaoContextMenuBundle\EventListener;
 
 use Contao\CoreBundle\DependencyInjection\Attribute\AsHook;
 use Contao\CoreBundle\Framework\ContaoFramework;
