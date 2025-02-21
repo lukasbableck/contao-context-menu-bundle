@@ -38,5 +38,8 @@ PaletteManipulator::create()
 	->addField('alwaysShowOperations', 'contextmenu_legend', PaletteManipulator::POSITION_APPEND)
 	->applyToPalette('default', 'tl_user')
 	->applyToPalette('admin', 'tl_user')
+	->applyToPalette('custom', 'tl_user')
+	->applyToPalette('extend', 'tl_user')
+	->applyToPalette('group', 'tl_user')
 	->applyToPalette('login', 'tl_user')
 ;
