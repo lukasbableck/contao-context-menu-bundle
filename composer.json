@@ -1,7 +1,7 @@
 {
     "name": "lukasbableck/contao-context-menu-bundle",
     "type": "contao-bundle",
-	"description": "",
+	"description": "This bundle allows you to configure whether you want to use the context menu for operations in the backend. You can also define operations that are always shown.",
 	"keywords": [
 		"backend",
 		"context menu",
