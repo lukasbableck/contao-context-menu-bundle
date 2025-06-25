@@ -21,6 +21,10 @@ class PrimaryOperationsListener {
 			return;
 		}
 
+		if (!\is_array($GLOBALS['TL_DCA'][$table] ?? null)) {
+			return;
+		}
+
 		if (!$user->enableContextMenu) {
 			foreach ($GLOBALS['TL_DCA'][$table]['list']['operations'] as $key => $operation) {
 				$GLOBALS['TL_DCA'][$table]['list']['operations'][$key]['primary'] = true;
